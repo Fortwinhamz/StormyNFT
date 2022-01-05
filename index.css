@@ -1,0 +1,502 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:serif;
+}
+
+.container{
+    background: rgb(218, 216, 217);
+    padding: 40px;
+    width: 100%;
+    height: 100vh;
+    display:inline-flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+/* Funke  */
+.funke{
+    font-size: 32px;
+}
+
+.funke .fa{
+    color: indigo;
+    font-size: 40px;
+}
+/* Chldren Div */
+.children{
+    border-radius: 20px 0px 0px 20px;
+    width:14% ;
+    height: 100%;
+    background: rgb(255, 255, 255);
+}
+.children a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(117, 112, 121);
+}
+.children a:hover{
+    color: rgb(37, 5, 59);
+    font-weight: 800;
+}
+.children .funke{
+    padding: 20px;
+}
+/* Frst Top Div in Children */
+.children .fay{
+    padding: 20px;
+    font-size: 25px;
+    margin: 15px;
+}
+
+
+.children .fay ul{
+    color: rgb(117, 112, 121);
+}
+
+
+
+.children .fay ul li{
+    margin: 15px;
+    list-style: none;
+}
+
+
+.children .fay ul li .fa{
+    margin-right: 20px;
+}
+
+
+/* Second Bottom div in Children */
+
+
+.children .fayy{
+    padding: 20px;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.children .fayy ul{
+    color:rgb(117, 112, 121);
+}
+
+.children .fayy ul li{
+    margin: 15px;
+    list-style: none;
+}
+
+
+.children .fayy ul li .fa{
+    margin-right: 20px;
+}
+
+/* Email box in Children */
+
+.acetech{
+    background: rgb(70, 13, 226);
+    color: white;
+    height: 170px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.acetech_text{
+    padding-top: 40px;
+    padding-left: 30px;
+    word-spacing: 2px;
+}
+.acetech_text .mailbox{
+    font-size: 25px; 
+}
+input{
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    font: 18px sans-serif;
+}
+
+/* Fathr's Div */
+.father{
+    width:60%;
+    background: rgb(245, 240, 240);
+    height: 100%;
+}
+
+.father .searchbox{
+    width:900px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.father .rammy{
+    background: linear-gradient( 150.50deg, rgb(13, 64, 204), rgb(191, 54, 255));
+    height:30%;
+    border-radius: 10px;
+    width: 90%;
+    color:#fff;
+    margin: 50px;
+}
+
+.father .rammy .discover{
+    padding-top: 80px;
+    padding-left: 27.5px;
+}
+
+.fort{
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 30px; 
+    padding: 10px 30px 15px 30px;
+    font-size:25px;
+    transition: .5s ease-in-out;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.fort a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+button:hover{
+    color: #ffffff;
+    background: #ffffff;
+}
+
+.tee{
+    color: #000000;
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 50px;
+    float: left;
+}
+
+.list ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+.list ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(145, 139, 139);
+}
+.list ul li a:hover{
+    color: rgb(82, 14, 170);
+    transition: .3s ease-in;
+    border-bottom: 6px rgb(82, 14, 170) solid;
+}
+
+.boxes{
+    margin-top:20px;
+    height: 100%;
+}
+/* First box Violet */
+.violet{
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    width:40%;
+    height:40%;
+    border: 1px solid blue;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+    margin-left: 50px;
+}
+
+.violet_text{
+    width:100%;
+    background:linear-gradient(#4f4bff , #bbaf4e);
+    border: 1px solid black;
+    height:60%;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.violet_img{
+    border-radius: 50%;
+    margin-top:10px;
+    width: 50px;
+    height: 50px;
+}
+
+.violet .text{
+    float: right;
+    margin-top: 20px;
+    margin-right: 220px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.violet_eth{
+    margin-top: 10px;
+}
+
+.violet .bid{
+    float: left;
+    color: rgb(116, 114, 119);
+    font-size: 16px;
+}
+.eth{
+    font-size: 19px;
+    color: rgb(59, 7, 107);
+    font-weight: 17px;
+    font-weight: 600;
+}
+.mini{
+    color: rgb(145, 139, 139);
+    font-size: 16px;
+}
+.violet .auction{
+    float: right;
+}
+
+.time{
+    color: rgb(59, 7, 107);
+    font-size: 19px;
+    font-weight: 600;
+}
+/* Second Box Disco */
+.disco{
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    width:40%;
+    border: 1px solid blue;
+    height:40%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 50px;
+    float: right;
+}
+
+.disco_text{
+    width:100%;
+    background:linear-gradient(#eebbcc , #6e1c1c);
+    border: 3px solid black;
+    height:60%;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.disco_img{
+    margin-top:10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.disco .text{
+    float: right;
+    margin-top: 20px;
+    margin-right: 220px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.disco .bid{
+    float: left;
+}
+
+.disco .auction{
+    float: right;
+}
+
+
+.disco_eth{
+    margin-top: 10px;
+}
+
+
+/* Beginning of Mother's side */
+.mother{
+    border-radius: 0px 20px 20px 0px;
+    width:26%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+}
+
+.mother_top{
+    width: 60%;
+    margin-top: 10px;
+    height:13%;
+}
+.mother_img{
+    margin-top:5px;
+    margin-bottom: -13px;
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#fas{
+    border-radius: 50%;
+    border: 5px solid rgb(145, 141, 141);
+    font-size: 37px;
+    margin-left: 30px;
+}
+
+.mother_text{
+    float: right;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: -20;
+    font-weight: 600;
+}
+
+.mother_mini{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.creator{
+    width: 100%;
+    height: 40%;
+    background: #fdfdfd;
+}
+.tophead{
+    width:100%;
+    height: 10%;
+}
+.top{
+    float: left;
+    font-size: 30px;
+}
+.see{
+    float: right;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 7px;
+    color: rgb(59, 7, 107);
+}
+
+.creator li{
+    list-style: none;
+    padding: 5px;
+}
+
+.creator_text{
+    font-size: 20px;
+    margin-top: -38px;
+    margin-left: 80px;
+    font-weight: 600;
+}
+
+.creator_mini{
+    font-size: 15px;
+    font-weight: 500;
+}
+.creator_img{
+    margin-top:15px;
+    margin-bottom: -13px;
+    margin-left: 15px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.creator_btn{
+    float: right;
+    margin-top: -45px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: .4s ease-in;
+    background: white;
+    color: rgb(191, 54, 255);
+    font-size: 19px;
+}
+.creator_btn:hover{
+    background: purple;
+    color: white;
+}
+
+/* Notification Div */
+
+.notification{
+    width: 100%;
+    height: 34%;
+    background: #fafafa;
+}
+
+.topnotify{
+    width:100%;
+
+}
+.notify{
+    float: left;
+    font-size: 30px;
+}
+
+.notify_img{
+    width: 11%;
+    height: 30%;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: -140px;
+}
+
+.notification li{
+    list-style: none;
+    padding: 5px;
+}
+
+.notify_text{
+    font-size: 20px;
+    margin-top: -40px;
+    margin-left: 80px;
+    font-weight: 600;
+}
+.notify_mini{
+    font-size: 15px;
+    font-weight: 500;
+}
+.notify_time{
+    float: right;
+    margin-top: -45px;
+    padding: 1px;
+    /* cursor: pointer; */
+    /* border-radius: 7px; */
+    /* transition: .4s ease-in; */
+    /* background: white; */
+    color: rgb(148, 140, 151);
+    font-size: 15px;
+}
+
+
+.notify_im{
+    width: 11%;
+    height: 30%;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-right: -140px;
+}
+
+.last_btn{
+    margin-top: 30px;
+    padding: 20px;  
+    border: 2px solid rgb(70, 13, 226);
+    margin-left: 18px;
+    border-radius: 10px;
+    background: #fff;
+    width: 90%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.last_btn:hover{
+    background: rgb(59, 7, 107);
+}
